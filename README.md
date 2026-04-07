@@ -299,23 +299,6 @@ Generates:
 
 ---
 
-## 🔗 Relation to CSTLF
-
-TagParaFormer is developed in the same research line as our **CSTLF** (Cross-Spatio-Temporal Learning Framework for Semantic Change Detection):
-
-| Aspect | CSTLF | TagParaFormer |
-|---|---|---|
-| Task | Semantic Change Detection | Road Network Extraction |
-| Backbone | CNN + LSTM + Transformer (tri-branch) | CNN + ViT (dual-branch, parallel) |
-| Temporal module | DbTSAM (dual-branch temporal self-attention) | ANG (node graph attention) |
-| Feature fusion | CTFN multi-scale | RRB + AdaptiveFusion |
-| Loss | WS-PLR (weakly supervised) | TagLoss (BCE + DVA + skeleton) |
-| Hyperparameter tuning | — | Bayesian PTE |
-| Datasets | sKwandaCD_V1, SECOND, LsSCD-Ex | DeepGlobe, Massachusetts, SpaceNet, WHU |
-| Affiliation | LIESMARS, Wuhan University | LIESMARS, Wuhan University |
-
----
-
 ## 📜 Citation
 
 ```bibtex
@@ -331,18 +314,6 @@ TagParaFormer is developed in the same research line as our **CSTLF** (Cross-Spa
 }
 ```
 
-If you use the CSTLF change detection datasets or framework, please also cite:
-
-```bibtex
-@article{mwubahimana2025cstlf,
-  title   = {CSTLF: A Cross-Spatio-Temporal Learning Framework for Remote Sensing
-             Change Detection via CNN-LSTM-Transformer Integration},
-  author  = {Mwubahimana, Boaz and Miao, Dingruibo and Jianguo, Yan and others},
-  journal = {ISPRS Journal of Photogrammetry and Remote Sensing},
-  year    = {2025},
-  note    = {Under Review}
-}
-```
 
 ---
 
