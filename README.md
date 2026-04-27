@@ -268,23 +268,6 @@ python inference/predict.py \
 
 ---
 
-## 🔬 Visualization
-
-```bash
-python scripts/visualize.py \
-    --checkpoint checkpoints/deepglobe/best.pth \
-    --image      data/deepglobe/test/images/sample.jpg \
-    --mask       data/deepglobe/test/masks/sample.png \
-    --out        outputs/viz/
-```
-
-Generates:
-- `feature_maps.png` — CNN/ViT branch feature heatmaps (paper Fig. 9–12)
-- `fp_fn_map.png` — TP/FP/FN error overlay (green/red/blue)
-- `topology_radar.png` — 6-metric radar chart (paper Fig. 8)
-
----
-
 ## 📐 Ablation Study (Table IV)
 
 | Configuration | mIoU | OA | F1 |
