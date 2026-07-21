@@ -284,18 +284,17 @@ python inference/predict.py \
 
 ## 📜 Citation
 
-```bibtex
-@article{mwubahimana2026tagparaformer,
-  title   = {TagParaFormer: Cross-Hybrid Attention Learning Framework for
-             Topology-Aware Road Network Extraction},
-  author  = {Mwubahimana, Boaz and Miao, Dingruibo and Jianguo, Yan and
-             Roy, Swalpa Kumar and Ma, Le and Dukundane, Remy and
-             Huang, Xiao and Wang, Ruisheng},
-  journal = {IEEE Transactions on Geoscience and Remote Sensing},
-  year    = {2026},
-  note    = {Under Review}
-}
-```
+@ARTICLE{11579418,
+  author={Mwubahimana, Boaz and Miao, Dingruibo and Jianguo, Yan and Ma, Le and Dukundane, Remy and Huang, Xiao and Roy, Swalpa Kumar and Wang, Ruisheng},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={TagParaFormer: Cross-Hybrid Attention Learning Framework for Topology-Aware Road Network Extraction From Remote Sensing Imagery}, 
+  year={2026},
+  volume={64},
+  number={},
+  pages={5630917-5630917},
+  keywords={Roads;Modeling;Convolutional neural networks;Topology;Optimization;Pixel;Remote sensing;Modules (abstract algebra);Accuracy;Educational institutions;Bayesian optimization;convolutional neural networks (CNNs);graph attention network;remote sensing (RS);road network extraction;topology-preserving segmentation;vision transformer (ViT)},
+  doi={10.1109/TGRS.2026.3707401}}
+
 
 
 ---
