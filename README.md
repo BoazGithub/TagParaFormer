@@ -6,7 +6,8 @@
 >
 > *State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing (LIESMARS), Wuhan University*
 
-[![Paper](https://img.shields.io/badge/Paper-Under%20Review-orange)](https://github.com/BoazGithub/TagParaFormer)
+[![Paper](https://img.shields.io/badge/Paper-IEEE%20TGRS%202026-blue)](https://ieeexplore.ieee.org/abstract/document/11579418)
+[![DOI](https://img.shields.io/badge/DOI-10.1109%2FTGRS.2026.3707401-green)](https://doi.org/10.1109/TGRS.2026.3707401)
 [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/BoazGithub/TagParaFormer)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue)](https://python.org)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red)](https://pytorch.org)
@@ -283,19 +284,22 @@ python inference/predict.py \
 ---
 
 ## 📜 Citation
----
+
+If you find this work useful, please cite:
+
+```bibtex
 @ARTICLE{11579418,
-  author={Mwubahimana, Boaz and Miao, Dingruibo and Jianguo, Yan and Ma, Le and Dukundane, Remy and Huang, Xiao and Roy, Swalpa Kumar and Wang, Ruisheng},
-  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
-  title={TagParaFormer: Cross-Hybrid Attention Learning Framework for Topology-Aware Road Network Extraction From Remote Sensing Imagery}, 
+  author={Mwubahimana, Boaz and Miao, Dingruibo and Jianguo, Yan and Ma, Le
+          and Dukundane, Remy and Huang, Xiao and Roy, Swalpa Kumar and Wang, Ruisheng},
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  title={TagParaFormer: Cross-Hybrid Attention Learning Framework for
+         Topology-Aware Road Network Extraction From Remote Sensing Imagery},
   year={2026},
   volume={64},
-  number={},
-  pages={5630917-5630917},
-  keywords={Roads;Modeling;Convolutional neural networks;Topology;Optimization;Pixel;Remote sensing;Modules (abstract algebra);Accuracy;Educational institutions;Bayesian optimization;convolutional neural networks (CNNs);graph attention network;remote sensing (RS);road network extraction;topology-preserving segmentation;vision transformer (ViT)},
-  doi={10.1109/TGRS.2026.3707401}}
----
-
+  pages={5630917},
+  doi={10.1109/TGRS.2026.3707401}
+}
+```
 
 ---
 
